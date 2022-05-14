@@ -1,0 +1,13 @@
+git config --global user.name "Vaishali-1622"
+git config --global user.email "vaishalifulambarkar@gmail.com"
+
+shailesh sir repository
+https://github.com/QAAutomation-lab/9thFeb-2022
+
+
+commands for help in company
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+
+
+ecplise 4.9
+https://www.eclipse.org/downloads/packages/release/2018-09/r
