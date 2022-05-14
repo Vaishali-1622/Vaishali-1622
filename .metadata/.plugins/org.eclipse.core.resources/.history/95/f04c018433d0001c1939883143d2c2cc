@@ -1,0 +1,24 @@
+package Independent;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		System.out.println("Palindrome the Number........");
+		Palindrome.getPalindrome(151);
+	}
+	public static void getPalindrome(int number) {
+		System.out.println("Enter the Number:"+number);
+		int temp=number, reverse=0;
+		while(temp!=0)
+		{
+			int remainder=number%10;
+			reverse=reverse*10+remainder;
+			temp=temp/10;
+		}
+		if(reverse==temp) {
+			System.out.println("Number is Palindrome");
+		}else {
+			System.out.println("Number is Not Palindrome");
+		}
+	}
+}

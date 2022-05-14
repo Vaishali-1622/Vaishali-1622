@@ -1,0 +1,30 @@
+package Independent;
+
+public class Armstrong {
+
+	public static void main(String[] args) {
+		System.out.println("ArmStrong Number........");
+Armstrong.getArmstrong(121);
+	}
+	public static void getArmstrong(int num) {
+		int realnum=num,res=num,length=0;
+		double sum=0;
+		while(realnum!=0) {
+			realnum /=10;
+			length=length+1;
+			
+		}
+		while(res!=0) {
+			double rem=res%10;
+			sum=sum+Math.pow(rem, length);
+			res=res/10;
+		}
+		System.out.println("Sum is:"+sum);
+		if (num==sum) {
+			System.out.println("Number is Armstrong");
+		}else {
+			System.out.println("Number is Not Armstrong");
+
+		}
+	}
+}

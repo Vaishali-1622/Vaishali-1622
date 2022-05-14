@@ -1,0 +1,25 @@
+package Independent;
+
+public class SL {
+
+	public static void main(String[] args) {
+		System.out.println("Program to find Smallest & Largest Number using If else...");
+		SL.getSL(12, 4, 67, 23);
+	}
+	static void getSL(int num1, int num2, int num3, int num4 ) {
+		System.out.println("The List of Number is:" +num1+","+num2+","+num3+","+num4);
+		if(num1<num2) {
+			if(num1<num3) {
+				System.out.println("Given First Number is Largest");
+			}else {
+				System.out.println("Given Third Number is Largest");
+			}if(num1<num4) {
+				System.out.println("Given First Number is Largest");
+			}else {
+				System.out.println("Given Fourth Number is Largest");
+			}
+		}
+	
+		
+	}
+}

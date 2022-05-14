@@ -1,0 +1,16 @@
+package Independent;
+
+public class EvenAndOdd {
+
+	public static void main(String[] args) {
+		System.out.println("Program to find Even & Odd number using If else...");
+		int number=13;
+		System.out.println("Number is:"+number);
+		if(number%2==0) {
+			System.out.println("Given Number is Even");
+		}else {
+			System.out.println("Given Number is Odd");
+		}
+	}
+
+}

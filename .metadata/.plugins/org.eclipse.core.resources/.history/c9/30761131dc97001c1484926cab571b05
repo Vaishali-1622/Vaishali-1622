@@ -1,0 +1,38 @@
+package Methods;
+
+public class MethodPrac6 {
+
+	public static void main(String[] args) {
+		System.out.println("Program Using Arithematic Operators Starts Here Using Non Static Method.......");
+		MethodPrac6 op1= new MethodPrac6();
+		double result=op1.Add(30, 45);
+		System.out.println("Result of Addition = "+result);
+		System.out.println("---------------------------------------------------");
+		System.out.println("...............................................");
+		System.out.println("Execution Of Subtracion: "+MethodPrac5.Sub(50, 30));
+		System.out.println("...............................................");
+		System.out.println("Execution Of Multiplication: "+MethodPrac5.Mul(20.5, 60));
+		System.out.println("...............................................");
+		op1.Div(40, 5);
+		System.out.println("................Program Ends..............");
+     
+	}
+	public int Add(int num1, int num2) {
+		return num1+num2;
+
+    }
+	private int Sub(int num1, int num2) {
+		return num1-num2;
+    }
+    protected double Mul(double num1, double num2) {
+		return num1*num2;
+    }
+
+    void Div(float num1, float num2) {
+			float div= num1/num2;
+			System.out.println("Result of Division is: "+div);
+    }		
+}
+
+
+	

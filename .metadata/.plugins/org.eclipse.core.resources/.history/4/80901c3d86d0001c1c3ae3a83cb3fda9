@@ -1,0 +1,14 @@
+package Independent;
+
+public class Triangle {
+
+	public static void main(String[] args) {
+		System.out.println("Triangle...");
+		getTraingle();
+	}
+	public static void getTraingle() {
+		for(int i=0;i<=5;i++) {
+			System.out.print(i);
+		}
+	}
+}

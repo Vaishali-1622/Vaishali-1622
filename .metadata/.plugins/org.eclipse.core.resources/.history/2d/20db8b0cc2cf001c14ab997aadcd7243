@@ -1,0 +1,14 @@
+package Independent;
+
+public class SL {
+
+	public static void main(String[] args) {
+		System.out.println("Program to find Smallest & Largest Number using If else...");
+		
+	}
+	static void getSL(int a, int b, int c, int d ) {
+		System.out.println("Number is:" +a+b+c+d);
+
+		
+	}
+}

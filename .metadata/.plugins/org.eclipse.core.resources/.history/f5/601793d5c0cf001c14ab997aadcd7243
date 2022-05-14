@@ -1,0 +1,20 @@
+package Independent;
+
+public class EvenAndOdd {
+      static void getEven(int x) {
+    	System.out.println("Number is:"+x);
+    	  if(x%2==0) {
+  			System.out.println("Given Number is Even");
+  		}else {
+  			System.out.println("Given Number is Odd");
+  		}
+	}
+
+	public static void main(String[] args) {
+		System.out.println("Program to find Even & Odd number using If else...");
+		EvenAndOdd.getEven(1);
+	
+		
+	}
+
+}

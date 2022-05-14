@@ -1,0 +1,10 @@
+package Mouse;
+
+public class MouseHovwer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

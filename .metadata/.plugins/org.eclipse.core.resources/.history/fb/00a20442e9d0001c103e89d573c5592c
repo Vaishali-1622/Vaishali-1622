@@ -1,0 +1,12 @@
+package Independent;
+
+public class Prime {
+
+	public static void main(String[] args) {
+		System.out.println("Program to find prime number...");
+
+	}
+	public static void getPrime(int x) {
+		
+	}
+}
